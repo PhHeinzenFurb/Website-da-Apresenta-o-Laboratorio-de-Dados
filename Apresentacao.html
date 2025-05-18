@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -55,10 +55,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d4be639c637f3db3c684c66cefad7e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -126,9 +126,13 @@ div.csl-indent {
 </header>
 
 
-<section id="variáveis" class="level2">
-<h2 class="anchored" data-anchor-id="variáveis">VARIÁVEIS</h2>
-<p>Foram utilizadas três variáveis na presente apresentação:</p>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">INTRODUÇÃO</h2>
+<p>A ideia para esta apresentação surgiu a partir de um breve trecho do livro Abundância, de Ezra Klein e Derek Thompson, onde citam o falecido demógrafo Hans Rosling. Os autores mostram que:</p>
+<blockquote class="blockquote">
+<p>Em 2010, ele argumentou que você poderia agrupar a humanidade pela energia à qual as pessoas tinham acesso. Na época, cerca de 2 bilhões de pessoas tinham pouco ou nenhum acesso à eletricidade e ainda cozinhavam alimentos e esquentavam água pelo fogo. Cerca de 3 bilhões tinham acesso a eletricidade suficiente para alimentar luzes elétricas. Um bilhão adicional ou mais tinha energia e riqueza para aparelhos que economizavam o trabalho, como máquinas de lavar. […] A energia é o núcleo da riqueza. (<span class="citation" data-cites="abundance">(<a href="#ref-abundance" role="doc-biblioref">Klein 2025</a>)</span>, p.&nbsp;69)</p>
+</blockquote>
+<p>Será o foco deste trabalho uma breve análise de três visualizações que fazem referência à parcela da população que possuem acesso à fontes limpas para cozimento e analisa-la no contexto do consumo elétrico per capita e exposição a PM2.5. Para tanto, foram utilizadas três variáveis obtidas através dos indicadores de desenvolvimento do Banco Mundial <span class="citation" data-cites="worldbank_wdi">(<a href="#ref-worldbank_wdi" role="doc-biblioref">World Bank 2025</a>)</span>:</p>
 <ul>
 <li><strong>Acesso a Combustíveis e Tecnologias Limpas Para Cozimento (% da população)</strong> (<code>EG.CFT.ACCS.ZS</code>)<br>
 </li>
@@ -137,11 +141,10 @@ div.csl-indent {
 <li><strong>Exposição Anual à Poluição por PM2.5 (microgramas por metro cúbico)</strong> (<code>EN.ATM.PM25.MC.M3</code>)<br>
 </li>
 </ul>
-<p>Os dados foram obtidos a partir dos indicadores de desenvolvimento do Banco Mundial <span class="citation" data-cites="worldbank_wdi">(<a href="#ref-worldbank_wdi" role="doc-biblioref">World Bank 2025</a>)</span>.</p>
 </section>
-<section id="gráfico-com-dados-em-painel" class="level2">
-<h2 class="anchored" data-anchor-id="gráfico-com-dados-em-painel">GRÁFICO COM DADOS EM PAINEL</h2>
-<p>A partir dos dados em painel, foi escolhido realizar uma breve análise da correlação entre entre as três variáveis escolhidas. A partir delas podemos verificar:</p>
+<section id="correlação-entre-as-variáveis-de-2000-à-2020-dados-em-painel" class="level2">
+<h2 class="anchored" data-anchor-id="correlação-entre-as-variáveis-de-2000-à-2020-dados-em-painel">CORRELAÇÃO ENTRE AS VARIÁVEIS DE 2000 À 2020 (DADOS EM PAINEL)</h2>
+<p>A partir do agrupamento por ano das médias de cada uma das variáveis escolhidas para a análise foram geradas visualizações demonstrando a evolução da correlação entre elas durante o período entre 2000 e 2020. Podemos verificar que:</p>
 <ul>
 <li><strong>A.</strong> Há uma relação positiva entre <strong>Consumo Elétrico Per Capita</strong> e <strong>Acesso a Fontes e Combustíveis Limpos</strong>;<br>
 </li>
@@ -157,8 +160,8 @@ div.csl-indent {
 </div>
 </div>
 </section>
-<section id="gráfico-com-série-temporal" class="level2">
-<h2 class="anchored" data-anchor-id="gráfico-com-série-temporal">GRÁFICO COM SÉRIE TEMPORAL</h2>
+<section id="evolução-das-variáveis-no-brasil-série-temporal" class="level2">
+<h2 class="anchored" data-anchor-id="evolução-das-variáveis-no-brasil-série-temporal">EVOLUÇÃO DAS VARIÁVEIS NO BRASIL (SÉRIE TEMPORAL)</h2>
 <p>O Brasil foi escolhido para a realização da extração dos dados da série temporal e subsequente criação dos gráficos. Logo abaixo temos dois visuais demonstrando a evolução no país da <strong>Exposição a PM2.5</strong> e também do <strong>Consumo Elétrico Per Capita</strong>.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -170,9 +173,9 @@ div.csl-indent {
 </div>
 </div>
 </section>
-<section id="gráfico-com-corte-transversal" class="level2">
-<h2 class="anchored" data-anchor-id="gráfico-com-corte-transversal">GRÁFICO COM CORTE TRANSVERSAL</h2>
-<p>Para a série temporal foi feito o corte do ano de 2020 para as três variáveis. A análise escolhida propõe a verificação do comportamento do <strong>Acesso a Fontes e Combustíveis Limpos</strong>, <strong>Consumo Elétrico Per Capita</strong> e <strong>Exposição a PM2.5</strong> nas diferentes regiões do mundo.</p>
+<section id="comportamento-das-variáveis-no-globo-para-o-ano-de-2020-corte-transversal" class="level2">
+<h2 class="anchored" data-anchor-id="comportamento-das-variáveis-no-globo-para-o-ano-de-2020-corte-transversal">COMPORTAMENTO DAS VARIÁVEIS NO GLOBO PARA O ANO DE 2020 (CORTE TRANSVERSAL)</h2>
+<p>Para o corte transversal foi feito o corte do ano de 2020 para as três variáveis. A análise escolhida propõe a verificação do comportamento do <strong>Acesso a Fontes e Combustíveis Limpos</strong>, <strong>Consumo Elétrico Per Capita</strong> e <strong>Exposição a PM2.5</strong> nas diferentes regiões do mundo.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -188,6 +191,9 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-abundance" class="csl-entry" role="listitem">
+Klein, Derek, Ezra; Thompson. 2025. <em>Abundance</em>. Simon &amp; Schuster.
+</div>
 <div id="ref-worldbank_wdi" class="csl-entry" role="listitem">
 World Bank. 2025. <span>“World Development Indicators.”</span> <a href="https://databank.worldbank.org/source/world-development-indicators">https://databank.worldbank.org/source/world-development-indicators</a>.
 </div>
@@ -274,8 +280,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -284,7 +288,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/04d1a816-9f65-4e4c-b374-e0cab06de80e\.netlify\.app\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -386,7 +390,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

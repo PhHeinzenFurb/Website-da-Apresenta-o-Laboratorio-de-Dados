@@ -4,34 +4,34 @@
     "href": "Apresentacao.html",
     "title": "Análise de Energia e Poluição",
     "section": "",
-    "text": "Foram utilizadas três variáveis na presente apresentação:\n\nAcesso a Combustíveis e Tecnologias Limpas Para Cozimento (% da população) (EG.CFT.ACCS.ZS)\n\nConsumo de Energia Elétrica (kWh per capita) (EG.USE.ELEC.KH.PC)\n\nExposição Anual à Poluição por PM2.5 (microgramas por metro cúbico) (EN.ATM.PM25.MC.M3)\n\n\nOs dados foram obtidos a partir dos indicadores de desenvolvimento do Banco Mundial (World Bank 2025)."
+    "text": "A ideia para esta apresentação surgiu a partir de um breve trecho do livro Abundância, de Ezra Klein e Derek Thompson, onde citam o falecido demógrafo Hans Rosling. Os autores mostram que:\n\nEm 2010, ele argumentou que você poderia agrupar a humanidade pela energia à qual as pessoas tinham acesso. Na época, cerca de 2 bilhões de pessoas tinham pouco ou nenhum acesso à eletricidade e ainda cozinhavam alimentos e esquentavam água pelo fogo. Cerca de 3 bilhões tinham acesso a eletricidade suficiente para alimentar luzes elétricas. Um bilhão adicional ou mais tinha energia e riqueza para aparelhos que economizavam o trabalho, como máquinas de lavar. […] A energia é o núcleo da riqueza. ((Klein 2025), p. 69)\n\nSerá o foco deste trabalho uma breve análise de três visualizações que fazem referência à parcela da população que possuem acesso à fontes limpas para cozimento e analisa-la no contexto do consumo elétrico per capita e exposição a PM2.5. Para tanto, foram utilizadas três variáveis obtidas através dos indicadores de desenvolvimento do Banco Mundial (World Bank 2025):\n\nAcesso a Combustíveis e Tecnologias Limpas Para Cozimento (% da população) (EG.CFT.ACCS.ZS)\n\nConsumo de Energia Elétrica (kWh per capita) (EG.USE.ELEC.KH.PC)\n\nExposição Anual à Poluição por PM2.5 (microgramas por metro cúbico) (EN.ATM.PM25.MC.M3)"
   },
   {
-    "objectID": "Apresentacao.html#variáveis",
-    "href": "Apresentacao.html#variáveis",
+    "objectID": "Apresentacao.html#introdução",
+    "href": "Apresentacao.html#introdução",
     "title": "Análise de Energia e Poluição",
     "section": "",
-    "text": "Foram utilizadas três variáveis na presente apresentação:\n\nAcesso a Combustíveis e Tecnologias Limpas Para Cozimento (% da população) (EG.CFT.ACCS.ZS)\n\nConsumo de Energia Elétrica (kWh per capita) (EG.USE.ELEC.KH.PC)\n\nExposição Anual à Poluição por PM2.5 (microgramas por metro cúbico) (EN.ATM.PM25.MC.M3)\n\n\nOs dados foram obtidos a partir dos indicadores de desenvolvimento do Banco Mundial (World Bank 2025)."
+    "text": "A ideia para esta apresentação surgiu a partir de um breve trecho do livro Abundância, de Ezra Klein e Derek Thompson, onde citam o falecido demógrafo Hans Rosling. Os autores mostram que:\n\nEm 2010, ele argumentou que você poderia agrupar a humanidade pela energia à qual as pessoas tinham acesso. Na época, cerca de 2 bilhões de pessoas tinham pouco ou nenhum acesso à eletricidade e ainda cozinhavam alimentos e esquentavam água pelo fogo. Cerca de 3 bilhões tinham acesso a eletricidade suficiente para alimentar luzes elétricas. Um bilhão adicional ou mais tinha energia e riqueza para aparelhos que economizavam o trabalho, como máquinas de lavar. […] A energia é o núcleo da riqueza. ((Klein 2025), p. 69)\n\nSerá o foco deste trabalho uma breve análise de três visualizações que fazem referência à parcela da população que possuem acesso à fontes limpas para cozimento e analisa-la no contexto do consumo elétrico per capita e exposição a PM2.5. Para tanto, foram utilizadas três variáveis obtidas através dos indicadores de desenvolvimento do Banco Mundial (World Bank 2025):\n\nAcesso a Combustíveis e Tecnologias Limpas Para Cozimento (% da população) (EG.CFT.ACCS.ZS)\n\nConsumo de Energia Elétrica (kWh per capita) (EG.USE.ELEC.KH.PC)\n\nExposição Anual à Poluição por PM2.5 (microgramas por metro cúbico) (EN.ATM.PM25.MC.M3)"
   },
   {
-    "objectID": "Apresentacao.html#gráfico-com-dados-em-painel",
-    "href": "Apresentacao.html#gráfico-com-dados-em-painel",
+    "objectID": "Apresentacao.html#correlação-entre-as-variáveis-de-2000-à-2020-dados-em-painel",
+    "href": "Apresentacao.html#correlação-entre-as-variáveis-de-2000-à-2020-dados-em-painel",
     "title": "Análise de Energia e Poluição",
-    "section": "GRÁFICO COM DADOS EM PAINEL",
-    "text": "GRÁFICO COM DADOS EM PAINEL\nA partir dos dados em painel, foi escolhido realizar uma breve análise da correlação entre entre as três variáveis escolhidas. A partir delas podemos verificar:\n\nA. Há uma relação positiva entre Consumo Elétrico Per Capita e Acesso a Fontes e Combustíveis Limpos;\n\nB. Há uma relação negativa entre Exposição a PM2.5 e Consumo Elétrico Per Capita, e também negativa da primeira com Acesso a Fontes e Combustíveis Limpos."
+    "section": "CORRELAÇÃO ENTRE AS VARIÁVEIS DE 2000 À 2020 (DADOS EM PAINEL)",
+    "text": "CORRELAÇÃO ENTRE AS VARIÁVEIS DE 2000 À 2020 (DADOS EM PAINEL)\nA partir do agrupamento por ano das médias de cada uma das variáveis escolhidas para a análise foram geradas visualizações demonstrando a evolução da correlação entre elas durante o período entre 2000 e 2020. Podemos verificar que:\n\nA. Há uma relação positiva entre Consumo Elétrico Per Capita e Acesso a Fontes e Combustíveis Limpos;\n\nB. Há uma relação negativa entre Exposição a PM2.5 e Consumo Elétrico Per Capita, e também negativa da primeira com Acesso a Fontes e Combustíveis Limpos."
   },
   {
-    "objectID": "Apresentacao.html#gráfico-com-série-temporal",
-    "href": "Apresentacao.html#gráfico-com-série-temporal",
+    "objectID": "Apresentacao.html#evolução-das-variáveis-no-brasil-série-temporal",
+    "href": "Apresentacao.html#evolução-das-variáveis-no-brasil-série-temporal",
     "title": "Análise de Energia e Poluição",
-    "section": "GRÁFICO COM SÉRIE TEMPORAL",
-    "text": "GRÁFICO COM SÉRIE TEMPORAL\nO Brasil foi escolhido para a realização da extração dos dados da série temporal e subsequente criação dos gráficos. Logo abaixo temos dois visuais demonstrando a evolução no país da Exposição a PM2.5 e também do Consumo Elétrico Per Capita."
+    "section": "EVOLUÇÃO DAS VARIÁVEIS NO BRASIL (SÉRIE TEMPORAL)",
+    "text": "EVOLUÇÃO DAS VARIÁVEIS NO BRASIL (SÉRIE TEMPORAL)\nO Brasil foi escolhido para a realização da extração dos dados da série temporal e subsequente criação dos gráficos. Logo abaixo temos dois visuais demonstrando a evolução no país da Exposição a PM2.5 e também do Consumo Elétrico Per Capita."
   },
   {
-    "objectID": "Apresentacao.html#gráfico-com-corte-transversal",
-    "href": "Apresentacao.html#gráfico-com-corte-transversal",
+    "objectID": "Apresentacao.html#comportamento-das-variáveis-no-globo-para-o-ano-de-2020-corte-transversal",
+    "href": "Apresentacao.html#comportamento-das-variáveis-no-globo-para-o-ano-de-2020-corte-transversal",
     "title": "Análise de Energia e Poluição",
-    "section": "GRÁFICO COM CORTE TRANSVERSAL",
-    "text": "GRÁFICO COM CORTE TRANSVERSAL\nPara a série temporal foi feito o corte do ano de 2020 para as três variáveis. A análise escolhida propõe a verificação do comportamento do Acesso a Fontes e Combustíveis Limpos, Consumo Elétrico Per Capita e Exposição a PM2.5 nas diferentes regiões do mundo."
+    "section": "COMPORTAMENTO DAS VARIÁVEIS NO GLOBO PARA O ANO DE 2020 (CORTE TRANSVERSAL)",
+    "text": "COMPORTAMENTO DAS VARIÁVEIS NO GLOBO PARA O ANO DE 2020 (CORTE TRANSVERSAL)\nPara o corte transversal foi feito o corte do ano de 2020 para as três variáveis. A análise escolhida propõe a verificação do comportamento do Acesso a Fontes e Combustíveis Limpos, Consumo Elétrico Per Capita e Exposição a PM2.5 nas diferentes regiões do mundo."
   }
 ]
